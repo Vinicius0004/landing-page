@@ -1,0 +1,1 @@
+Neste projeto iremos realizar a criação de uma landing page de um evento academico com seções de programação, palestrantes e inscrição utilizando o padrão de github flow com a regras indicadas no [workflow.md](https://github.com/Vinicius0004/landing-page/blob/master/workflow.md)
