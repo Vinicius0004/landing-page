@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Evento Acadêmico - 2025</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <h1 class="titulo-site">Encontro Acadêmico 2025</h1>
+            <p class="subtitulo">Inovação, Pesquisa e Ensino</p>
+            <nav class="menu">
+                <a href="#programacao">Programação</a>
+                <a href="#palestrantes">Palestrantes</a>
+                <a href="#inscricao">Inscrição</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="heroi" class="heroi">
+            <div class="container heroi-conteudo">
+                <img src="assets/images/hero.jpg" alt="Público em evento acadêmico" class="heroi-imagem">
+                <div class="heroi-texto">
+                    <h2>Participe do principal encontro de pesquisa e ensino</h2>
+                    <p>Três dias de palestras, painéis e apresentações de trabalhos. Networking com pesquisadores e estudantes de diversas áreas.</p>
+                    <a class="botao" href="#inscricao">Inscreva-se</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="programacao" class="secao">
+            <div class="container">
+                <h2>Programação</h2>
+                <p class="descricao">Confira a programação dos três dias. Sessões plenárias, painéis temáticos, apresentações de trabalhos e oficinas práticas.</p>
+
+                <ul class="programa-lista">
+                    <li>
+                        <strong>Dia 1 — Abertura e Palestras Magnas</strong>
+                        <p>09:00 - 12:30 — Cerimônia de abertura e palestras sobre tendências em pesquisa.</p>
+                    </li>
+                    <li>
+                        <strong>Dia 2 — Sessões Temáticas</strong>
+                        <p>09:00 - 17:30 — Trilhas paralelas por áreas do conhecimento; apresentação de pôsteres.</p>
+                    </li>
+                    <li>
+                        <strong>Dia 3 — Oficinas e Encerramento</strong>
+                        <p>09:00 - 16:00 — Oficinas práticas e recomendações finais.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="palestrantes" class="secao">
+            <div class="container">
+                <h2>Palestrantes</h2>
+                <p class="descricao">Confira alguns dos profissionais convidados para o evento.</p>
+
+                <div class="palestrantes">
+                    <article class="palestrante">
+                        <img src="imagens/1280w-3XHQrJB_gDs.png" alt="Foto do palestrante 1" class="foto-palestrante">
+                        <h3>Prof. Dr. Ana Silva</h3>
+                        <p>Universidade Federal — Pesquisa em aprendizagem automática aplicada à educação.</p>
+                    </article>
+
+                    <article class="palestrante">
+                        <img src="imagens/7a2c5abb7841d79eccd52e6cddaf8961.png" alt="Foto do palestrante 2" class="foto-palestrante">
+                        <h3>Dr. Carlos Pereira</h3>
+                        <p>Instituto Tecnológico — Inovação e transferência de tecnologia.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="inscricao" class="secao">
+            <div class="container">
+                <h2>Inscrição</h2>
+                <p class="descricao">Garanta sua vaga. Preencha o formulário abaixo. Não são necessárias integrações por JavaScript; o envio pode ser tratado pelo servidor ou por e-mail automático.</p>
+
+                <form class="form-inscricao" method="post" action="#" novalidate>
+                    <label for="nome">Nome completo</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">E‑mail</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="instituicao">Instituição</label>
+                    <input type="text" id="instituicao" name="instituicao">
+
+                    <label for="categoria">Categoria</label>
+                    <select id="categoria" name="categoria">
+                        <option>Estudante</option>
+                        <option>Docente</option>
+                        <option>Pesquisador</option>
+                        <option>Outro</option>
+                    </select>
+
+                    <button type="submit" class="botao">Enviar inscrição</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <p>© 2025 Encontro Acadêmico — Organização Universitária</p>
+        </div>
+    </footer>
+</body>
+</html>
