@@ -241,13 +241,3 @@ a:focus, button:focus, input:focus, textarea:focus{
     .programa-lista li, .palestrante, .form-inscricao{box-shadow: none}
 }
 
-/* Estilos adicionais */
-@media (max-width: 600px) {
-    .heroi-conteudo {
-        grid-template-columns: 1fr;
-    }
-    .heroi-imagem {
-        width: 100%;
-        max-width: none;
-    }
-}
