@@ -251,3 +251,10 @@ a:focus, button:focus, input:focus, textarea:focus{
         max-width: none;
     }
 }   
+
+/* Estilos para links */
+a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    transition: color var(--transition);
+}   
